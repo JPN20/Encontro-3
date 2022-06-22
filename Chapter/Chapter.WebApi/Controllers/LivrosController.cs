@@ -13,7 +13,7 @@ namespace Chapter.WebApi.Controllers
     [Produces("application/json")]
 
     // Define que a rota de uma requisição será no formato dominio/api/nomeController
-    // ex: http://localhost:5000/api/livros
+    // ex: http://localhost:8080/api/livros
     [Route("api/[controller]")]
 
     // atributo para habilitar comportamentos especificos de API, como status, retorno
